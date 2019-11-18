@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(255,255,255);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    padding: 6px;
+    margin: 5px;
+    text-decoration: none;
+}
+li{
+    float: left;
+}
+
+.nav{
+    float:right;
+}
+
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.google{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.forma{
+    display:block;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+#in{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+
+.more{
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    display: block;
+    left:0;
+    right:0;
+    background-color: rgb(233, 222, 222);
+}
+
+.about{
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.about a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.privacy{
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.privacy a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.country p{
+    margin-left: 40px;
+}
+
+.country{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    border-top: 1px solid rgb(202, 202, 202);
+}
+
+a{
+    color: black;
+}
